@@ -1,3 +1,4 @@
+"use client";
 import { furniture } from "@/data/furniture";
 import { useState } from "react";
 

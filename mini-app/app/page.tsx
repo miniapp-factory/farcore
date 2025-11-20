@@ -2,6 +2,7 @@ import { description, title } from "@/lib/metadata";
 import { generateMetadata } from "@/lib/farcaster-embed";
 import Furniture from "@/components/furniture";
 import HouseTemplates from "@/components/house-templates";
+import Workspace from "@/components/workspace";
 
 export { generateMetadata };
 
@@ -13,6 +14,7 @@ export default function Home() {
       <span className="text-muted-foreground">{description}</span>
       <Furniture />
       <HouseTemplates />
+      <Workspace />
     </main>
   );
 }
